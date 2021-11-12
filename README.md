@@ -7,7 +7,7 @@
 
 ## Install
 ```bash
-npm install --save react-image-grid-gallary
+npm install @dinethpiyumantha/react-image-grid-gallary
 ```
 
 ## Usage
