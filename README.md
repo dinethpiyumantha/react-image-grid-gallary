@@ -2,7 +2,7 @@
 
 > This React Component displays an image gallery using CSS Grid.
 
-[![NPM](https://img.shields.io/npm/v/react-image-grid-gallary.svg)](https://www.npmjs.com/package/react-image-grid-gallary) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-image-grid-gallary.svg)](https://www.npmjs.com/package/@dinethpiyumantha/react-image-grid-gallary) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
 ## Install
