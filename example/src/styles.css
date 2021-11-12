@@ -1,0 +1,59 @@
+.image-grid-card {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.image-grid-card-title {
+    position: relative;
+    padding: 5px 10px;
+    bottom: 0px;
+    width: 250px;
+    height: 25px;
+    background-color: #000000cc;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.overflow-back {
+    width: 250px;
+    height: 150px;
+    background-color: #00000088;
+    opacity: 0%;
+    transition: .2s;
+}
+
+.image-grid-card:hover .overflow-back {
+    opacity: 100%;
+}
+
+.image-grid-card:hover .image-grid-card-title {
+    margin-top: -35px;
+    opacity: 100%;
+}
+
+/* Animations */
+
+.fade-in {
+    -webkit-animation: fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

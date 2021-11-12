@@ -1,11 +1,26 @@
 {
-  "name": "react-image-grid-gallary",
-  "version": "1.0.0",
+  "name": "@dinethpiyumantha/react-image-grid-gallary",
+  "version": "0.0.1",
   "description": "JS library for easialy create a image gallary",
   "author": "dinethpiyumantha",
   "license": "MIT",
-  "repository": "dinethpiyumantha/react-image-grid-gallary",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinethpiyumantha/react-image-grid-gallary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dinethpiyumantha/react-image-grid-gallary/isuues"
+  },
+  "homepage": "https://github.com/dinethpiyumantha/react-image-grid-gallary#readme",
+  "keywords": [
+    "image gallery",
+    "image",
+    "gallery",
+    "grid",
+    "image grid gallery"
+  ],
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {

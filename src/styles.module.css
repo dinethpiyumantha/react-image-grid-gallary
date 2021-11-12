@@ -1,9 +1,36 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.image-grid-card {
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.image-grid-card-title {
+  position: relative;
+  padding: 5px 10px;
+  bottom: 0px;
+  width: 250px;
+  height: 25px;
+  background-color: #000000cc;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.overflow-back {
+  width: 250px;
+  height: 150px;
+  background-color: #00000088;
+  opacity: 0%;
+  transition: .2s;
+}
+
+.image-grid-card:hover .overflow-back {
+  opacity: 100%;
+}
+
+.image-grid-card:hover .image-grid-card-title {
+  margin-top: -35px;
+  opacity: 100%;
 }
