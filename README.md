@@ -42,6 +42,7 @@ class App extends Component {
 
 #### Using as a list
 <p>If you wish to add object list. You can use this way</p>
+
 ```jsx
 import React, { Component } from 'react'
 
